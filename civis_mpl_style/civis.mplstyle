@@ -1,0 +1,26 @@
+font.family             : sans-serif
+# font.sans-serif         : Lato  # Lato looks bad for some reason.
+font.size               : 16
+font.weight             : medium
+
+xtick.color             : 000000
+ytick.color             : 000000
+
+axes.labelsize          : 17
+axes.facecolor          : white
+
+axes.spines.top         : False
+axes.spines.right       : False
+
+lines.linewidth         : 2.25
+
+grid.color              : ECECEC
+grid.alpha              : 0.5
+
+figure.figsize          : 8, 6
+
+hist.bins               : 50
+
+axes.prop_cycle         : cycler('color', ['F4A800', '006082', 'D8432C', '00AA7F', '3C383C', 'FFC425', '0194D3', 'F77552', '49DEA4', '86518D', 'BF8669', '555555', 'FFE180', '4DC0E8', 'FFCBC2', 'C5E5D4', 'C9B2CE', 'E7C8A9', '929292', 'FFEBB3', '86CFE8', 'D1D3D4', 'ECECEC'])
+
+savefig.dpi             : 300
