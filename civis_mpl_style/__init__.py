@@ -47,6 +47,7 @@ def add_to_mpl():
 
 cmap = ListedColormap(_colors.values())
 
+
 if _HAS_SEABORN:
     seaborn_palette = sns.color_palette(_colors.values())
     __ALL__.append('seaborn_palette')
