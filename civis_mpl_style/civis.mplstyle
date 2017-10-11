@@ -1,5 +1,5 @@
 font.family             : sans-serif
-# font.sans-serif         : Lato  # Lato looks bad for some reason.
+# font.sans-serif         : Lato  # Lato looks bad, probably because of https://github.com/matplotlib/matplotlib/issues/8788
 font.size               : 16
 font.weight             : medium
 
