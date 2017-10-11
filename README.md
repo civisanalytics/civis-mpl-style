@@ -4,14 +4,25 @@ This package contains a Civis matplotlib theme.
 
 ## Installation
 
+First, you'll need to install the package with `setup.py` or `pip`:
+
+Bash installation:
+
 ```bash
 python setup.py install
 ```
 
-Or using pip
+Pip installation:
 
 ```bash
 pip install git+ssh://git@github.com/civisanalytics/civis-mpl-style.git
+```
+
+Next, run the following to put the Civis style in the matplotlib
+configuration directory (typically `~/.matplotlib/stylelib/`).
+
+```bash
+install-civis-style
 ```
 
 
