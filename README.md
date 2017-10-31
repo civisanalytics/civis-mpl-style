@@ -43,4 +43,4 @@ with plt.style.context('civis'):
     plt.show()
 ```
 
-See `examples.ipynb` for more examples. 
+See `examples.ipynb` for more examples.
