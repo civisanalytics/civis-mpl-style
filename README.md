@@ -18,7 +18,7 @@ Pip installation:
 pip install git+ssh://git@github.com/civisanalytics/civis-mpl-style.git
 ```
 
-Next, run the following to put the Civis style in the matplotlib
+Next, run the following on the command line to put the Civis style in the matplotlib
 configuration directory (typically `~/.matplotlib/stylelib/`).
 
 ```bash
