@@ -13,8 +13,10 @@ def main():
     mpl_style_dir = os.path.join(mpl.get_configdir(), 'stylelib')
     if not os.path.exists(mpl_style_dir):
         os.makedirs(mpl_style_dir)
-    with open(os.path.join(mpl_style_dir, 'civis.mplstyle'), 'w') as new_style:
+    path = os.path.join(mpl_style_dir, 'civis.mplstyle')
+    with open(path, 'w') as new_style:
         new_style.write(style_doc)
+    print("The Civis matplotlib style was installed at %s" % path)
 
 
 if __name__ == '__main__':
