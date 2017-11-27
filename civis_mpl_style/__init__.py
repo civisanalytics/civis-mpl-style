@@ -2,7 +2,7 @@ from collections import OrderedDict
 
 from matplotlib.colors import ListedColormap
 try:
-    import seaborn.apionly as sns
+    import seaborn as sns
     _HAS_SEABORN = True
 except ImportError:
     _HAS_SEABORN = False
