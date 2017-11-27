@@ -44,3 +44,5 @@ with plt.style.context('civis'):
 ```
 
 See `examples.ipynb` for more examples.
+Make sure to [install seaborn](https://seaborn.pydata.org/installing.html)
+before running the notebook.
